@@ -1,83 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tranquil Villa in Fayoum</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#173a30">
+<meta name="description" content="Tranquil Villa in Fayoum, private pool, garden, terrace and a peaceful base for exploring Fayoum, Lake Qarun and the surrounding desert.">
+<meta property="og:title" content="Tranquil Villa in Fayoum | Private Pool & Garden">
+<meta property="og:description" content="A peaceful Fayoum stay with a private pool, garden and generous terrace.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://nosseir1.github.io/tranquil-villa-fayoum/01_pool.jpg">
+<meta name="contact" content="+201041403068">
+<title>Tranquil Villa in Fayoum | Private Pool & Garden</title>
+<style>
+:root{--green:#173a30;--cream:#f6f1e7;--paper:#fffdf8;--text:#19342c;--muted:#65736d;--line:#ddd6c8;--sage:#dfe9df}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--text);font:16px/1.6 Arial,sans-serif}
+.wrap{width:min(1160px,calc(100% - 32px));margin:auto}a{color:inherit}.nav{position:sticky;top:0;z-index:9;background:#f6f1e7ed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;text-decoration:none}.links{display:flex;gap:18px;align-items:center}.links a{text-decoration:none;font-size:14px}.lang{border:1px solid var(--line);background:var(--paper);border-radius:30px;padding:9px 13px;font-weight:700;cursor:pointer}
+.hero{padding:80px 0 60px;background:radial-gradient(circle at 90% 10%,#d9e7da,transparent 35%)}.eyebrow{font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:#718078}
+h1,h2{font-family:Georgia,serif;letter-spacing:-.04em;line-height:1.02}h1{font-size:clamp(48px,8vw,90px);max-width:950px;margin:14px 0 22px}h2{font-size:clamp(34px,5vw,54px);margin:0}
+.lede{font-size:clamp(18px,2vw,23px);max-width:730px;color:var(--muted)}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;min-height:48px;align-items:center;justify-content:center;border-radius:30px;padding:0 20px;text-decoration:none;font-weight:800;border:1px solid var(--green)}.primary{background:var(--green);color:white}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);margin-top:50px;border:1px solid var(--line);border-radius:20px;overflow:hidden}.fact{padding:22px;background:var(--paper);border-right:1px solid var(--line)}.fact:last-child{border:0}.fact b{display:block;font-size:21px}.fact span{color:var(--muted);font-size:13px}
+section{padding:76px 0}.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:30px}.head p{max-width:510px;color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:28px}.card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted)}
+.showcase{display:grid;grid-template-columns:1fr 1fr;gap:38px;align-items:center}.visual{min-height:390px;border-radius:28px;background-size:cover;background-position:center;display:flex;align-items:end;padding:28px;color:white;font:32px/1.1 Georgia,serif;position:relative;overflow:hidden}
+.visual:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(0,0,0,.58))}
+.visual span{position:relative;z-index:1}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-auto-rows:240px;gap:12px}
+.gallery img{width:100%;height:100%;object-fit:cover;border-radius:18px}
+.gallery img:first-child{grid-row:span 2}
+.gallery img:nth-child(6){grid-column:span 2}
+@media(max-width:800px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:180px}.gallery img:first-child{grid-row:span 1}.gallery img:nth-child(6){grid-column:span 1}}
 
-  <style>
-    body{
-      margin:0;
-      font-family:Arial,sans-serif;
-      background:#f5f5f5;
-      color:#333;
-      text-align:center;
-    }
-
-    header{
-      background:#2e8b57;
-      color:white;
-      padding:50px 20px;
-    }
-
-    h1{
-      margin:0;
-      font-size:40px;
-    }
-
-    p{
-      font-size:20px;
-    }
-
-    .btn{
-      display:inline-block;
-      margin-top:20px;
-      padding:15px 30px;
-      background:#ff9800;
-      color:white;
-      text-decoration:none;
-      border-radius:8px;
-      font-weight:bold;
-    }
-
-    section{
-      padding:40px 20px;
-    }
-
-    footer{
-      background:#222;
-      color:white;
-      padding:20px;
-    }
-  </style>
+.places{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.place{min-height:190px;padding:25px;border-radius:22px;background:#e3eadf;display:flex;flex-direction:column;justify-content:end}.place:nth-child(2){background:#eee2cf}.place:nth-child(3){background:#dbe8e6}.place h3{font:29px Georgia,serif;margin:5px 0}
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:12px}.rule{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px}
+details{border-bottom:1px solid var(--line);padding:18px 0}summary{font-weight:800;cursor:pointer}.booking{background:var(--green);color:white;border-radius:30px;padding:36px;display:grid;grid-template-columns:.9fr 1.1fr;gap:30px}.booking p{color:#c9d8d1}.form{display:grid;grid-template-columns:1fr 1fr;gap:11px}.field{display:flex;flex-direction:column;gap:5px}.full{grid-column:1/-1}.field label{font-size:12px;font-weight:800}.field input,.field select,.field textarea{border:1px solid #527066;background:#21483c;color:white;border-radius:12px;padding:12px;font:inherit}.field textarea{min-height:90px}.form button{grid-column:1/-1;background:white;color:var(--green);cursor:pointer}.status{grid-column:1/-1;font-size:13px}.footer{padding:35px 0;border-top:1px solid var(--line);margin-top:70px}.footerin{display:flex;justify-content:space-between;color:var(--muted)}
+[dir=rtl] body{font-family:Tahoma,Arial,sans-serif}[dir=rtl] h1,[dir=rtl] h2,[dir=rtl] .visual,[dir=rtl] .place h3{font-family:Tahoma,Arial,sans-serif;letter-spacing:0}
+@media(max-width:800px){.links a{display:none}.links .lang{display:block}.facts{grid-template-columns:1fr 1fr}.fact:nth-child(2){border-right:0}.grid,.places,.showcase,.booking{grid-template-columns:1fr}.head{align-items:start;flex-direction:column}.rules{grid-template-columns:1fr}}
+@media(max-width:520px){.hero{padding-top:52px}.facts{grid-template-columns:1fr 1fr}.fact{padding:16px}.form{grid-template-columns:1fr}.field{grid-column:1/-1}.booking{padding:24px 17px}.footerin{flex-direction:column;gap:8px}}
+</style>
 </head>
-
 <body>
-
-<header>
-<h1>Tranquil Villa in Fayoum</h1>
-<p>Private Pool, Garden & Lake Access</p>
-
-<a class="btn" href="#">
-Book Now
-</a>
-</header>
-
-<section>
-<h2>Welcome</h2>
-
-<p>
-Escape the city and enjoy a peaceful stay surrounded by nature,
-a private swimming pool, beautiful garden, and the charm of Fayoum.
-</p>
-
-</section>
-
-<footer>
-
-© 2026 Tranquil Villa in Fayoum
-
-</footer>
-
-</body>
-</html>
+<nav class="nav"><div class="wrap navin"><a class="brand" href="#top" data-en="Tranquil Villa in Fayoum" data-ar="فيلا هادئة في الفيوم">Tranquil Villa in Fayoum</a><div class="links"><a href="#villa" data-en="The villa" data-ar="الفيلا">The villa</a><a href="#fayoum" data-en="Explore Fayoum" data-ar="اكتشف الفيوم">Explore Fayoum</a><a href="#booking" data-en="Plan your stay" data-ar="خطط لإقامتك">Plan your stay</a><button class="lang" id="lang">العربية</button></div></div></nav>
+<header class="hero" id="top" style="background:
+linear-gradient(rgba(246,241,231,.74),rgba(246,241,231,.88)),
+url('01_pool.jpg') center/cover no-repeat;"><div class="wrap"><div class="eyebrow" data-en="Private stay · Fayoum, Egypt" data-ar="إقامة خاصة · الفيوم، مصر">Private stay · Fayoum, Egypt</div><h1 data-en="Slow down. Swim. Breathe in Fayoum." data-ar="اهدأ. اسبح. واستمتع بروح الفيوم.">Slow down. Swim. Breathe in Fayoum.</h1><p class="lede" data-en="A peaceful ground-floor villa with a private pool, garden and generous terrace, close to Lake Qarun and Fayoum's desert landscapes." data-ar="فيلا هادئة في الطابق الأرضي مع حمام سباحة خاص وحديقة وتراس واسع، بالقرب من بحيرة قارون وطبيعة الفيوم الصحراوية.">A peaceful ground-floor villa with a private pool, garden and generous terrace, close to Lake Qarun and Fayoum's desert landscapes.</p><div class="actions">
+<a class="btn primary" href="#booking" data-en="Plan your stay" data-ar="خطط لإقامتك">Plan your stay</a>
+<a class="btn" href="https://wa.me/201041403068" target="_blank" rel="noopener" data-en="WhatsApp host" data-ar="واتساب المضيف">WhatsApp host</a>
+<a class="btn" href="tel:+201041403068" data-en="Call host" data-ar="اتصل بالمضيف">Call host</a>
+</div><div class="facts"><div class="fact"><b>2</b><span data-en="Bedrooms" data-ar="غرف نوم">Bedrooms</span></div><div class="fact"><b data-en="Private" data-ar="خاص">Private</b><span data-en="Swimming pool" data-ar="حمام سباحة">Swimming pool</span></div><div class="fact"><b data-en="Garden" data-ar="حديقة">Garden</b><span data-en="Outdoor space" data-ar="مساحة خارجية">Outdoor space</span></div><div class="fact"><b data-en="Parking" data-ar="موقف سيارة">Parking</b><span data-en="On the property" data-ar="داخل العقار">On the property</span></div></div></div></header>
+<main>
+<section id="villa"><div class="wrap"><div class="head"><h2 data-en="Comfort inside. Fayoum outside." data-ar="راحة في الداخل، والفيوم في الخارج.">Comfort inside. Fayoum outside.</h2><p data-en="The pool, garden and terrace form the heart of the stay, with practical indoor spaces for an easy getaway." data-ar="حمام السباحة والحديقة والتراس هم قلب الإقامة، مع مساحات داخلية عملية لعطلة مريحة.">The pool, garden and terrace form the heart of the stay, with practical indoor spaces for an easy getaway.</p></div><div class="grid">
+<div class="card"><h3 data-en="Private pool" data-ar="حمام سباحة خاص">Private pool</h3><p data-en="A private swimming area with loungers and direct garden access." data-ar="مساحة سباحة خاصة مع أماكن للاسترخاء ودخول مباشر من الحديقة.">A private swimming area with loungers and direct garden access.</p></div>
+<div class="card"><h3 data-en="Two bedrooms" data-ar="غرفتا نوم">Two bedrooms</h3><p data-en="Comfortable sleeping spaces for families, friends and small groups." data-ar="مساحات نوم مريحة للعائلات والأصدقاء والمجموعات الصغيرة.">Comfortable sleeping spaces for families, friends and small groups.</p></div>
+<div class="card"><h3 data-en="Garden & terrace" data-ar="حديقة وتراس">Garden & terrace</h3><p data-en="Outdoor space for breakfast, reading and relaxed evenings." data-ar="مساحة خارجية للإفطار والقراءة والأمسيات الهادئة.">Outdoor space for breakfast, reading and relaxed evenings.</p></div>
+<div class="card"><h3 data-en="Living & dining" data-ar="معيشة وطعام">Living & dining</h3><p data-en="A welcoming sitting area with smart TV and dining space." data-ar="منطقة معيشة مريحة مع تلفزيون ذكي ومساحة لتناول الطعام.">A welcoming sitting area with smart TV and dining space.</p></div>
+<div class="card"><h3 data-en="Equipped kitchen" data-ar="مطبخ مجهز">Equipped kitchen</h3><p data-en="A practical kitchen for meals, snacks and longer stays." data-ar="مطبخ عملي للوجبات والوجبات الخفيفة والإقامات الأطول.">A practical kitchen for meals, snacks and longer stays.</p></div>
+<div class="card"><h3 data-en="Wi-Fi & essentials" data-ar="واي فاي والأساسيات">Wi-Fi & essentials</h3><p data-en="Everyday essentials for a comfortable and connected stay." data-ar="الأساسيات اليومية لإقامة مريحة ومتّصلة.">Everyday essentials for a comfortable and connected stay.</p></div>
+</div></div></section>
+<section id="gallery"><div class="wrap"><div class="head"><h2 data-en="See the villa." data-ar="شاهد الفيلا.">See the villa.</h2><p data-en="A selection of the strongest views from the pool, garden, terrace and interior." data-ar="مجموعة مختارة من أفضل صور حمام السباحة والحديقة والتراس والمساحات الداخلية.">A selection of the strongest views from the pool, garden, terrace and interior.</p></div><div class="gallery">
+<img loading="lazy" src="01_pool.jpg" alt="Tranquil Villa in Fayoum photo 1">
+<img loading="lazy" src="02_pool.jpg" alt="Tranquil Villa in Fayoum photo 2">
+<img loading="lazy" src="03_pool.jpg" alt="Tranquil Villa in Fayoum photo 3">
+<img loading="lazy" src="04_garden-terrace.jpg" alt="Tranquil Villa in Fayoum photo 4">
+<img loading="lazy" src="05_garden-terrace.jpg" alt="Tranquil Villa in Fayoum photo 5">
+<img loading="lazy" src="06_terrace.jpg" alt="Tranquil Villa in Fayoum photo 6">
+<img loading="lazy" src="07_terrace.jpg" alt="Tranquil Villa in Fayoum photo 7">
+<img loading="lazy" src="08_garden-terrace.jpg" alt="Tranquil Villa in Fayoum photo 8">
+<img loading="lazy" src="09_garden.jpg" alt="Tranquil Villa in Fayoum photo 9">
+<img loading="lazy" src="10_garden.jpg" alt="Tranquil Villa in Fayoum photo 10">
+<img loading="lazy" src="11_living-dining.jpg" alt="Tranquil Villa in Fayoum photo 11">
+<img loading="lazy" src="12_living-room.jpg" alt="Tranquil Villa in Fayoum photo 12">
+</div></div></section>
+<section><div class="wrap showcase"><div class="visual" style="background-image:url('02_pool.jpg')"><span data-en="Your private outdoor space is the centre of the experience." data-ar="مساحتك الخارجية الخاصة هي قلب التجربة.">Your private outdoor space is the centre of the experience.</span></div><div><div class="eyebrow" data-en="The guest journey" data-ar="تجربة الضيف">The guest journey</div><h2 data-en="Arrive, settle in, then head outside." data-ar="وصل، استقر، ثم استمتع بالخارج.">Arrive, settle in, then head outside.</h2><p class="lede" data-en="Private parking leads through a short path into the ground-floor home. From the living space, the villa opens naturally toward the large terrace, garden and pool." data-ar="يؤدي موقف السيارة الخاص عبر ممر قصير إلى المنزل في الطابق الأرضي، ثم تنفتح مساحة المعيشة بشكل طبيعي على التراس الكبير والحديقة وحمام السباحة.">Private parking leads through a short path into the ground-floor home. From the living space, the villa opens naturally toward the large terrace, garden and pool.</p></div></div></section>
+<section><div class="wrap"><div class="head"><h2 data-en="Inside the villa." data-ar="داخل الفيلا.">Inside the villa.</h2><p data-en="Bedrooms, living space, kitchen, bathroom and entrance." data-ar="غرف النوم والمعيشة والمطبخ والحمام والمدخل.">Bedrooms, living space, kitchen, bathroom and entrance.</p></div><div class="gallery">
+<img loading="lazy" src="13_living-dining.jpg" alt="Tranquil Villa interior photo 13">
+<img loading="lazy" src="14_bedroom.jpg" alt="Tranquil Villa interior photo 14">
+<img loading="lazy" src="15_bedroom.jpg" alt="Tranquil Villa interior photo 15">
+<img loading="lazy" src="16_bedroom.jpg" alt="Tranquil Villa interior photo 16">
+<img loading="lazy" src="17_kitchen.jpg" alt="Tranquil Villa interior photo 17">
+<img loading="lazy" src="18_bathroom.jpg" alt="Tranquil Villa interior photo 18">
+<img loading="lazy" src="19_entrance-corridor.jpg" alt="Tranquil Villa interior photo 19">
+<img loading="lazy" src="20_main-entrance.jpg" alt="Tranquil Villa interior photo 20">
+<img loading="lazy" src="21_living-dining.jpg" alt="Tranquil Villa interior photo 21">
+<img loading="lazy" src="22_pool.jpg" alt="Tranquil Villa interior photo 22">
+</div></div></section>
+<section id="fayoum"><div class="wrap"><div class="head"><h2 data-en="Explore Fayoum." data-ar="اكتشف الفيوم.">Explore Fayoum.</h2><p data-en="Use the villa as a quiet base for some of Fayoum's best-known natural and cultural experiences." data-ar="اجعل الفيلا قاعدة هادئة لاستكشاف أشهر التجارب الطبيعية والثقافية في الفيوم.">Use the villa as a quiet base for some of Fayoum's best-known natural and cultural experiences.</p></div><div class="places"><div class="place"><small data-en="LAKE & NATURE" data-ar="البحيرة والطبيعة">LAKE & NATURE</small><h3 data-en="Lake Qarun" data-ar="بحيرة قارون">Lake Qarun</h3></div><div class="place"><small data-en="VILLAGE LIFE" data-ar="حياة القرية">VILLAGE LIFE</small><h3 data-en="Tunis Village" data-ar="قرية تونس">Tunis Village</h3></div><div class="place"><small data-en="DESERT" data-ar="الصحراء">DESERT</small><h3 data-en="Wadi El Rayan" data-ar="وادي الريان">Wadi El Rayan</h3></div></div></div></section>
+<section><div class="wrap"><div class="head"><h2 data-en="Good to know." data-ar="معلومات مهمة.">Good to know.</h2></div><div class="rules"><div class="rule"><b data-en="Check-in: 1:00 PM · Check-out: 11:00 AM" data-ar="الوصول: 1 ظهرًا · المغادرة: 11 صباحًا">Check-in: 1:00 PM · Check-out: 11:00 AM</b></div><div class="rule"><span data-en="Guests may be asked to provide valid identification or other documentation where required under local regulations." data-ar="قد يُطلب من الضيوف تقديم إثبات هوية ساري أو مستندات أخرى إذا كانت مطلوبة وفقًا للوائح المحلية.">Guests may be asked to provide valid identification or other documentation where required under local regulations.</span></div><div class="rule"><span data-en="Children should always be supervised around the swimming pool." data-ar="يجب الإشراف على الأطفال دائمًا بالقرب من حمام السباحة.">Children should always be supervised around the swimming pool.</span></div><div class="rule"><span data-en="Exterior security cameras may operate around access points." data-ar="قد تعمل كاميرات أمنية خارجية حول نقاط الدخول.">Exterior security cameras may operate around access points.</span></div></div></div></section>
+<section><div class="wrap"><div class="head"><h2 data-en="Frequently asked." data-ar="أسئلة شائعة.">Frequently asked.</h2></div><details><summary data-en="Is the swimming pool private?" data-ar="هل حمام السباحة خاص؟">Is the swimming pool private?</summary><p data-en="Yes. The swimming pool is part of the private guest area." data-ar="نعم، حمام السباحة جزء من المساحة الخاصة بالضيوف.">Yes. The swimming pool is part of the private guest area.</p></details><details><summary data-en="Is there private parking?" data-ar="هل يوجد موقف سيارة خاص؟">Is there private parking?</summary><p data-en="Yes. The property includes private car parking at the main entrance." data-ar="نعم، يوجد موقف خاص للسيارة عند المدخل الرئيسي.">Yes. The property includes private car parking at the main entrance.</p></details><details><summary data-en="Is the accommodation the entire building?" data-ar="هل الإقامة تشمل المبنى بالكامل؟">Is the accommodation the entire building?</summary><p data-en="The guest accommodation is the private ground floor of a two-floor villa, with private guest access and outdoor areas." data-ar="الإقامة هي الطابق الأرضي الخاص من فيلا مكونة من طابقين، مع مدخل ومساحات خارجية خاصة بالضيوف.">The guest accommodation is the private ground floor of a two-floor villa, with private guest access and outdoor areas.</p></details></div></section>
+<section id="booking"><div class="wrap"><div class="booking"><div><div class="eyebrow" style="color:#bfd0c8" data-en="DIRECT ENQUIRY" data-ar="استفسار مباشر">DIRECT ENQUIRY</div><h2 data-en="Plan your stay." data-ar="خطط لإقامتك.">Plan your stay.</h2><p data-en="Enter your dates and guest numbers, then send your enquiry directly by WhatsApp or call the host." data-ar="أدخل التواريخ وعدد الضيوف، ثم أرسل استفسارك مباشرة عبر واتساب أو اتصل بالمضيف.">Enter your dates and guest numbers, then send your enquiry directly by WhatsApp or call the host.</p>
+<div class="actions">
+<a class="btn" style="background:white;color:var(--green);border-color:white" href="https://wa.me/201041403068" target="_blank" rel="noopener" data-en="WhatsApp 01041403068" data-ar="واتساب 01041403068">WhatsApp 01041403068</a>
+<a class="btn" style="color:white;border-color:#8eaaa0" href="tel:+201041403068" data-en="Call 01041403068" data-ar="اتصل 01041403068">Call 01041403068</a>
+</div></div><form class="form" id="form"><div class="field"><label data-en="CHECK-IN" data-ar="الوصول">CHECK-IN</label><input id="ci" type="date" required></div><div class="field"><label data-en="CHECK-OUT" data-ar="المغادرة">CHECK-OUT</label><input id="co" type="date" required></div><div class="field"><label data-en="ADULTS" data-ar="البالغون">ADULTS</label><select id="ad"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option></select></div><div class="field"><label data-en="CHILDREN" data-ar="الأطفال">CHILDREN</label><select id="ch"><option selected>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select></div><div class="field full"><label data-en="MESSAGE" data-ar="رسالة">MESSAGE</label><textarea id="note"></textarea></div><button class="btn" type="submit" data-en="Send enquiry by WhatsApp" data-ar="أرسل الاستفسار عبر واتساب">Send enquiry by WhatsApp</button><div class="status" id="status"></div></form></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><b data-en="Tranquil Villa in Fayoum" data-ar="فيلا هادئة في الفيوم">Tranquil Villa in Fayoum</b><span>© <span id="year"></span> · Fayoum, Egypt · <a href="tel:+201041403068">01041403068</a></span></div></footer>
+<script>
+let L='en';const root=document.documentElement,lb=document.getElementById('lang');
+function setLang(x){L=x;root.lang=x;root.dir=x==='ar'?'rtl':'ltr';document.querySelectorAll('[data-en]').forEach(e=>e.textContent=e.dataset[x]);lb.textContent=x==='en'?'العربية':'English';localStorage.setItem('villa-lang',x)}
+lb.onclick=()=>setLang(L==='en'?'ar':'en');setLang(localStorage.getItem('villa-lang')||'en');document.getElementById('year').textContent=new Date().getFullYear();
+const ci=document.getElementById('ci'),co=document.getElementById('co');let d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());ci.min=d.toISOString().slice(0,10);co.min=ci.min;ci.onchange=()=>{co.min=ci.value;if(co.value<=ci.value)co.value=''};
+document.getElementById('form').onsubmit=async e=>{e.preventDefault();const s=document.getElementById('status');if(!ci.value||!co.value||co.value<=ci.value){s.textContent=L==='ar'?'اختر تاريخ مغادرة بعد تاريخ الوصول.':'Choose a check-out date after check-in.';return}const n=Math.round((new Date(co.value)-new Date(ci.value))/86400000),a=document.getElementById('ad').value,c=document.getElementById('ch').value,note=document.getElementById('note').value.trim();const m=L==='ar'?`مرحبًا، أود الاستفسار عن الإقامة في فيلا هادئة في الفيوم.\nالوصول: ${ci.value}\nالمغادرة: ${co.value}\nالليالي: ${n}\nالبالغون: ${a}\nالأطفال: ${c}${note?`\nملاحظات: ${note}`:''}`:`Hello, I'd like to enquire about Tranquil Villa in Fayoum.\nCheck-in: ${ci.value}\nCheck-out: ${co.value}\nNights: ${n}\nAdults: ${a}\nChildren: ${c}${note?`\nNotes: ${note}`:''}`;const url='https://wa.me/201041403068?text='+encodeURIComponent(m);window.open(url,'_blank','noopener');s.textContent=L==='ar'?'تم فتح واتساب برسالة الحجز.':'WhatsApp opened with your booking enquiry.'};
+</script>
+</body></html>
